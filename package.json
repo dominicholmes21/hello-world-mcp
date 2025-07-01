@@ -1,0 +1,40 @@
+{
+  "name": "hello-world-mcp",
+  "version": "1.0.1",
+  "description": "A simple MCP server that returns hello world",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "hello-world-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "keywords": ["mcp", "server", "hello-world"],
+  "author": {
+    "name": "scarletkc",
+    "email": "i@scarletkc.com",
+    "url": "https://github.com/scarletkc"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FogMoe/hello-world-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FogMoe/hello-world-mcp/issues"
+  },
+  "homepage": "https://github.com/FogMoe/hello-world-mcp#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
